@@ -1,0 +1,29 @@
+Line Magics (Single %)
+
+	•	%lsmagic: Lists all available magic commands.
+	•	%pwd: Prints the current working directory.
+	•	%cd [directory]: Changes the current working directory.
+	•	%who: Lists all variables in the current namespace.
+	•	%whos: Provides a detailed list of variables, including type and size.
+	•	%time: Times the execution of a single statement.
+	•	%timeit: Runs a statement multiple times and reports the average execution time.
+	•	%run [script.py]: Runs a Python script.
+	•	%matplotlib [inline/notebook]: Configures how Matplotlib plots are displayed (e.g., inline within the notebook).
+	•	%history: Shows the command history of the current session.
+	•	%reset: Resets the namespace by removing all names defined by the user.
+	•	%alias: Defines custom shortcuts for system commands.
+
+Cell Magics (Double %%)
+
+	•	%%time: Times the execution of an entire cell.
+	•	%%timeit: Runs the cell multiple times and reports the average execution time.
+	•	%%writefile [filename]: Writes the contents of the cell to a file.
+	•	%%capture: Captures the output of the cell and stores it in a variable.
+	•	%%bash: Runs cell contents as a Bash script.
+	•	%%sh: Alias for %%bash.
+	•	%%html: Renders cell contents as HTML.
+	•	%%latex: Renders cell contents as LaTeX.
+	•	%%markdown: Renders cell contents as Markdown.
+	•	%%script [language]: Runs the cell in a specified script language (e.g., bash, perl, ruby).
+	•	%%prun: Profiles the code in the cell using the cProfile module.
+	•	%%debug: Starts the interactive debugger for the code in the cell.
